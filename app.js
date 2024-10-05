@@ -7,7 +7,7 @@ let container = document.querySelector('.container');
 let video = document.querySelector('.video');
 
 const tagVideo = `
-          <video loop="true" autoplay="autoplay" muted width="100%" height="auto">
+          <video loop="true" autoplay="autoplay" width="100%" height="auto">
               <source src="./img/video.mp4" type="video/mp4" />
           </video> 
 `
