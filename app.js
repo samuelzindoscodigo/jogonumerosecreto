@@ -1,4 +1,4 @@
-let numeroSecreto = 3;
+let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 let conteudo = document.querySelector('.container__conteudo');
@@ -74,7 +74,7 @@ function reiniciarJogo () {
   minhaCara.style.display='block' ;
   removerImput.style.display='block';
   console.log('teste');
-  numeroSecreto = 3;
+  numeroSecreto = gerarNumeroAleatorio();
   limparCampo ();
   tentativas = 1;
   exibirMensagemInicial();
